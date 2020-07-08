@@ -18,7 +18,6 @@ const firebaseConfig = {
   projectId:         ENV.FIREBASE_PRJ_ID,
   storageBucket:     ENV.FIREBASE_STORAGE,
   messagingSenderId: ENV.FIREBASE_SENDER_ID,
-  appId: "1:345667655648:web:2b7811cfac7ae2f5b43d85"
 }
 
 firebase.initializeApp(firebaseConfig);
