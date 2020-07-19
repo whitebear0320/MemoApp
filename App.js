@@ -37,6 +37,10 @@ const App = createStackNavigator({
     headerTitle: 'Memot',
     headerStyle: {
       backgroundColor: '#265366',
+      shadowColor: '#000',
+      shadowOffset: {width: 0, height: 2},
+      shadowOpacity: 0.2,
+      shadowRadius: 3,
     },
     headerTitleStyle: {
       color: '#fff'

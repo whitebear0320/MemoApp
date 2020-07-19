@@ -1,5 +1,5 @@
 import React, { memo } from 'react'
-import { StyleSheet, View, TextInput } from 'react-native'
+import { StyleSheet, View, TextInput, ScrollView } from 'react-native'
 
 import firebase from 'firebase'
 
@@ -50,6 +50,7 @@ class MemoEditScreen extends React.Component {
           multiline
           value={this.state.body}
           onChangeText={(text) => { this.setState({ body: text }) }}
+          textAlignVertical='top'
         />
 
         <CircleButton
